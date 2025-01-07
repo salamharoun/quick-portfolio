@@ -1,26 +1,45 @@
-## This can be your internal website page / project page
+## Artwork Data Exploration
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project explores the relationships between user preferences and various factors, such as demographic traits, art style preferences, and personality traits, through data analysis and statistical modeling. Key objectives included evaluating preferences for classical versus modern art, understanding demographic influences, and predicting user political orientation based on responses. Advanced statistical techniques like PCA, dimensionality reduction, and classification models were employed to derive meaningful insights from a large and complex dataset.
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The project investigated the following hypotheses:
+
+Users may prefer classical art over modern art.
+Demographics such as gender or art education background influence art preferences.
+Political orientation can be predicted based on users' preferences, personality traits, and activities.
+The analysis revealed significant patterns, such as higher preference ratings for classical art and the influence of user traits like callousness on preference ratings.
 
 ```javascript
-if (isAwesome){
-  return true
+// Hypothesis example: Predicting political orientation
+if (userPreferences && userDemographics) {
+  return predictedPoliticalOrientation;
 }
 ```
 
 ### 2. Assess assumptions on which statistical inference will be based
 
+Statistical analyses were conducted with several considerations:
+
+Data were ordinal and not normally distributed, making parametric tests unsuitable.
+Missing data were handled by removing rows with NaNs to maintain dataset integrity.
+Dimensionality reduction was utilized where appropriate to simplify analysis without losing critical information.
+For example, Mann-Whitney U tests were used to analyze differences in art preferences across independent groups due to the non-parametric nature of the data.
+
 ```javascript
-if (isAwesome){
-  return true
+if (dataType === 'ordinal' && distribution === 'nonNormal') {
+  use('MannWhitneyUTest');
 }
 ```
 
 ### 3. Support the selection of appropriate statistical tools and techniques
+
+To address the research questions, the following tools were used:
+
+Dimensionality Reduction: Principal Component Analysis (PCA) to identify critical factors affecting preferences.
+Regression Models: Linear and logistic regression to predict art preferences and political orientation, accounting for data type limitations.
+Clustering Algorithms: K-means with silhouette and elbow methods to define clusters in preference-energy relationships.
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
