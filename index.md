@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Artwork EDA](/artworkAnalysis)
+[Artwork EDA](./artworkAnalysis.md)
 <img src="images/visualization.png?raw=true"/>
 
 ---
