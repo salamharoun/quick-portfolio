@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [Artwork EDA](/sample_page)
-<img src="images/visualization.jpg?raw=true"/>
+<img src="images/visualization.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
