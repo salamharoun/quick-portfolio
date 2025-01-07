@@ -54,7 +54,7 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - Mean squared error = 0.96 ± 0.15.
 - **Conclusion:** Linear regression was not effective due to the ordinal nature of the data.
 
-*Placeholder for regression plot image.*
+<img src="images/faultyRegression0.png?raw=true"/>
 
 ---
 
@@ -65,7 +65,7 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - Mean squared error = 0.92 ± 0.12.
 - **Conclusion:** Model accuracy was low due to ordinal and categorical predictors.
 
-*Placeholder for regression plot image.*
+<img src="images/faultyRegression.png?raw=true"/>
 
 ---
 
@@ -78,7 +78,9 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - Orange: Modern art.
   - Blue: Intense classical art.
 
-*Placeholder for clustering plot image.*
+<img src="images/sScore.png?raw=true"/>
+<img src="images/elbowMethod.png?raw=true"/>
+<img src="images/clusters.png?raw=true"/>
 
 ---
 
@@ -89,7 +91,8 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - Mean cross-validation score = -0.0512.
 - **Conclusion:** No relationship between self-worth and art preference.
 
-*Placeholder for PCA plot image.*
+<img src="images/PCA_0.png?raw=true"/>
+<img src="images/linearRegression.png?raw=true"/>
 
 ---
 
@@ -100,7 +103,7 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - Callousness (3rd component) had the highest explanatory power (R² = 0.036).
 - **Conclusion:** Callousness slightly predicts preferences, but overall model performance was poor.
 
-*Placeholder for PCA plot image.*
+<img src="images/PCA_1.png?raw=true"/>
 
 ---
 
@@ -110,7 +113,8 @@ For dimensionality reduction, no reduction was applied initially, as the observa
   - AUC score = 0.68.
 - **Conclusion:** The model reasonably predicts political orientation.
 
-*Placeholder for ROC curve image.*
+<img src="images/PCA.png?raw=true"/>
+<img src="images/ROC_curve.png?raw=true"/>
 
 ---
 
